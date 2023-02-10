@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 0 ;
+    background: #fff;
+    padding: 1rem 4.5rem;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+
+}
+a{
+text-decoration: none;
+color: grey;
+}
+a:hover{
+    color: blueviolet;
+}
+.hero{
+    height: 100vh;
+    max-width: 1200px;
+    padding: 0 4.5rem;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+#home{
+    margin-top: 2rem;
+   display: flex;
+   flex-direction: column;
+   gap: 2.5rem;
+   flex-basis: 55%;
+}
+#home > h1{
+    font-size: xx-large;
+}
+#home > p{
+    line-height: 0.7cm;
+}
+.purple-font{
+    color:#7209b7 ;
+}
+.pink-font{
+    color:#f72585 ;
+}
+#hire, button{
+    border: #912dd4;
+    border-radius: 1rem;
+    background: #912dd4;
+    color: white;
+    padding: 10px  25px;
+    
+}
+#resume-home, .card > button{
+    border: none;
+    background: none;
+    color: #912dd4;
+    margin-left: 1.3rem;
+}
+#pic{
+    position: relative;
+}
+.circle{
+    width: 31rem;
+    height: 31rem;
+    border-radius: 50%;
+    background-image: linear-gradient(#fa56a0, #f5afcf)
+}
+.man{
+    width: 25rem;
+    height: 35rem;
+    position: absolute;
+    top: 1rem;
+}
+#about-me{
+    background: #f72585;
+    color: aliceblue;
+    display: flex;
+    gap: 10%;
+    padding: 0 7rem;
+    height: 100vh;
+    align-items: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+#p1{
+    flex-basis: 55%;
+}
+#resume-about, .card-pink > button{
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.para-about{
+    color: #e0dfe0;
+}
+.para-skills{
+    color: #999899;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    gap: 3rem;
+    
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background: rgb(252, 255, 248);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;  
+    border: 2px solid #e0dfe0 ;
+    color: #797879;
+}
+.card-pink{
+    width: 200px;
+    height: 150px;
+    background: #f72585;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem; 
+
+}
+.card > h4{
+    color: #5e5d5e;
+}
+.card-pink > h4 {
+    color: #e0dfe0;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.portfolio > nav{
+
+    padding: 0 4.5rem;
+
+}
+.gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 13rem);
+        grid-template-rows: repeat(2, 13rem);
+        gap: 1em;
+}
+.item > img{
+        width: 13em;
+        height: 13em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    background: #f72585;
+    padding: 4.8em;
+    color: aliceblue;
+} 
